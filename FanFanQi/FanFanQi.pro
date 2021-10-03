@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui multimedia
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -14,10 +14,20 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mymainwindow.cpp \
-    startscene.cpp
+    startscene.cpp \
+    mypushbutton.cpp \
+    selectscene.cpp \
+    playscene.cpp \
+    coinbutton.cpp \
+    dataconfig.cpp
 
 HEADERS  += mymainwindow.h \
-    startscene.h
+    startscene.h \
+    mypushbutton.h \
+    selectscene.h \
+    playscene.h \
+    coinbutton.h \
+    dataconfig.h
 
 FORMS    += mymainwindow.ui
 
